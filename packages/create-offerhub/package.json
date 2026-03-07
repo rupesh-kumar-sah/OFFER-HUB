@@ -1,14 +1,14 @@
 {
   "name": "create-offer-hub-orchestrator",
   "version": "1.0.1",
-  "description": "Interactive installer for OFFER-HUB Orchestrator — sets up environment, database, and initial API key",
+  "description": "Interactive installer for OFFER-HUB Orchestrator \u2014 sets up environment, database, and initial API key",
   "type": "module",
   "bin": {
     "create-offer-hub-orchestrator": "./dist/index.js"
   },
   "scripts": {
-    "build": "tsc -p tsconfig.json && chmod +x dist/index.js",
-    "dev": "tsx src/index.ts",
+    "build": "node init && tsc -p tsconfig.json && chmod +x dist/index.js",
+    "dev": "node init && tsx src/index.ts",
     "type-check": "tsc --noEmit"
   },
   "keywords": [

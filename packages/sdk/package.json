@@ -1,7 +1,7 @@
 {
   "name": "@offerhub/sdk",
   "version": "1.0.0",
-  "description": "Official TypeScript SDK for OFFER-HUB Orchestrator — marketplace escrow & payment infrastructure",
+  "description": "Official TypeScript SDK for OFFER-HUB Orchestrator \u2014 marketplace escrow & payment infrastructure",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
@@ -12,7 +12,7 @@
     "access": "public"
   },
   "scripts": {
-    "build": "tsc -p tsconfig.json"
+    "build": "node init && tsc -p tsconfig.json"
   },
   "keywords": [
     "offerhub",
