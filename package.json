@@ -10,9 +10,9 @@
     "packages/*"
   ],
   "scripts": {
-    "dev": "npm run dev -w @offerhub/api",
-    "dev:api": "npm run dev -w @offerhub/api",
-    "build": "npm run build -w @offerhub/shared -w @offerhub/database && npm run build -ws",
+    "dev": "node init && npm run dev -w @offerhub/api",
+    "dev:api": "node init && npm run dev -w @offerhub/api",
+    "build": "node init && npm run build -w @offerhub/shared -w @offerhub/database && npm run build -ws",
     "test": "jest",
     "test:watch": "jest --watch",
     "test:coverage": "jest --coverage",
