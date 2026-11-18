@@ -4,8 +4,8 @@
   "version": "0.0.0",
   "description": "DEPRECATED - Worker functionality has been unified into @offerhub/api",
   "scripts": {
-    "dev": "node init && echo 'DEPRECATED: Worker is now part of the API. Run npm run dev from root.'",
-    "build": "node init && echo 'DEPRECATED: Worker is now part of the API.'",
-    "start": "node init && echo 'DEPRECATED: Worker is now part of the API.'"
+    "dev": "echo 'DEPRECATED: Worker is now part of the API. Run npm run dev from root.'",
+    "build": "echo 'DEPRECATED: Worker is now part of the API.'",
+    "start": "echo 'DEPRECATED: Worker is now part of the API.'"
   }
 }
